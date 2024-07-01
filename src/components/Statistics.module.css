@@ -1,0 +1,44 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.statisticsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: darkgrey;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 25px 0px;
+  text-transform: uppercase;
+}
+
+.statisticsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.statisticsListElements {
+  width: 72px;
+  height: 72px;
+
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 4px;
+}
+
+.statisticsListElementsText {
+  font-weight: 600;
+  font-size: 20px;
+}
