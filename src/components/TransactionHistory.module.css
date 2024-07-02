@@ -1,0 +1,44 @@
+.table {
+  width: 900px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+
+  border-collapse: collapse;
+}
+
+.tableHead {
+  background-color: #99ccff;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+tr {
+  border: 2px solid lightgray;
+  /* padding: 12px 12px; */
+}
+
+td {
+  border: 2px solid lightgray;
+  padding: 12px 12px;
+}
+
+th {
+  border: 2px solid lightgray;
+  padding: 12px 12px;
+  width: 33%;
+}
+
+.tableBody {
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid lightgray;
+  width: 100%;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
