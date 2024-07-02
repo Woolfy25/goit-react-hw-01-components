@@ -1,0 +1,34 @@
+.friendLIstItemList {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  width: 360px;
+  height: 90px;
+  gap: 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.spanSatus {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.friendLIstItemName {
+  color: black;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 25px 0px;
+}
